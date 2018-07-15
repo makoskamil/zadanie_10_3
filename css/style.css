@@ -1,9 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
 #carousel {
-    margin: 0;
+    margin: 0 auto;
+    width: 400px;
+    height: 266px;
     padding: 0;
-    box-sizing: border-box;
+    border: 4px solid blue;
+    overflow: hidden;
 }
 
 img {
     width: 400px;
+    height: 266px;
+    margin: 0;
+    padding: 0;
+}
+
+#carousel ul {
+    margin: 0;
+    padding: 0;
+    width: 2000px;
+	list-style-type: none;
+}
+#carousel ul li {
+    float: rightleft;
+    line-height: 0;
+    display: inline-block;
+	list-style-type: none;
 }
